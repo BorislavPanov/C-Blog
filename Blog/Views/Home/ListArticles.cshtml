@@ -15,9 +15,11 @@
                             @Html.ActionLink(@article.Title, "Details", "Article", new { @id = article.Id }, null)
                         </h2>
                     </header>
+
                     <p>
                         @article.Content
                     </p>
+
                     <footer class="pull-right">
                         <small class="author">
                             --author @article.Author.NickName

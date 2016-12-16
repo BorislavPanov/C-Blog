@@ -10,6 +10,7 @@
         {
             <div class="col-sm-6 text-center text-uppercase">
                 <p>
+                    <img src="https://placeimg.com/940/621/people/sepia" alt="bomba" />
                     <h2>
                         @Html.ActionLink(string.Format($"{category.Name} ({category.Articles.Count})"),
                         "ListArticles", "Home", new { @categoryId = category.Id }, null)
